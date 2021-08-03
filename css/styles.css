@@ -1042,6 +1042,14 @@ a.link:hover {
   .header__nav {
     padding-right: 0;
   }
+  .header .nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
   .header .nav > *:not(.icon, #header__signup, .login) {
     display: none;
   }

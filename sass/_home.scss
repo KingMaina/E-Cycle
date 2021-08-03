@@ -882,11 +882,19 @@
             // padding-top: 0;
         }
         .nav{
+            @include flex-row;
+            list-style-type: none;
+            padding-top: 2rem;
+            justify-content: center;
+            align-items: center;
             & > *:not(.icon,#header__signup,.login){
                 display: none;
             }
             #header__signup{
                 margin:0 5rem 0 1.5rem;
+            }
+            #header__signup,.login{
+
             }
             .icon{
                 display: block;
